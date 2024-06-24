@@ -4177,6 +4177,7 @@ figcaption {
 
 .text-about-fisio {
   text-align: justify;
+  width: 85%;
   padding-left: 0;
 }
 
@@ -5716,7 +5717,7 @@ figcaption {
 
 #w-node-_2fbe8306-ec23-2574-db69-e22e91091c27-54b76b5a {
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: .25fr 1fr;
 }
 
 #w-node-d53c314d-930f-2a74-5bcc-8015b38eaf91-54b76b5a {
