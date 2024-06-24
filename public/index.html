@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!-- This site was created in Webflow. https://webflow.com -->
-<!-- Last Published: Mon Jun 24 2024 15:31:47 GMT+0000 (Coordinated Universal Time) -->
 <html data-wf-domain="terapia-e29229.webflow.io"
     data-wf-page="6663b1a10c6bce4a54b76b5a"
     data-wf-site="6663b1a00c6bce4a54b76ae8" data-wf-status="1">
@@ -195,29 +193,6 @@
                       }
                 </style>
                 </div>
-                <div class="js w-embed w-script">
-                    <script async>
-                    document.addEventListener('DOMContentLoaded', () => {
-                      // Add click event listeners to theme switch buttons
-                      document.querySelectorAll('[theme-switch]').forEach(btn => {
-                        btn.addEventListener('click', () => {
-                          // Toggle theme preference between 'light' and 'dark'
-                          const newTheme = document.documentElement.getAttribute('theme') === 'dark' ? 'light' : 'dark';
-                          document.documentElement.setAttribute('theme', newTheme);
-                          // Store the theme preference in local storage
-                          localStorage.setItem('theme', newTheme);
-                        });
-                  
-                        // Accessibility: Allow keyboard users to toggle theme with "Enter" key
-                        btn.addEventListener('keypress', (event) => {
-                          if (event.key === "Enter") {
-                            btn.click();
-                          }
-                        });
-                      });
-                    });
-                </script>
-                </div>
             </div>
             <div data-animation="default" data-collapse="small"
                 data-duration="400" data-easing="ease" data-easing2="ease"
@@ -260,7 +235,7 @@
                 </div>
                 <div class="container w-container">
                     <div class="sg-wrapper">
-                        <a href="/"
+                        <a href="#"
                             id="w-node-c8301479-9a72-079e-9599-ff0b0aafe961-f150f609"
                             aria-current="page"
                             class="sg-logo-2 w-nav-brand w--current"><img
@@ -271,9 +246,9 @@
                         </a>
                         <nav role="navigation"
                             id="w-node-ac93a942-6d15-9f0f-16fe-e4abf150f60e-f150f609"
-                            class="sg-nav_menu w-nav-menu"><a href="/about"
+                            class="sg-nav_menu w-nav-menu"><a href="about.html"
                                 class="nav_link w-nav-link">Sobre Nós</a><a
-                                href="#"
+                                href="servico.html"
                                 class="nav_link w-nav-link">Serviços</a><a
                                 href="#footer"
                                 class="nav_link w-nav-link">Contactos</a><a
@@ -319,10 +294,7 @@
                                         a<br />Diferença no <span
                                             class="red">Crescimento</span></h1></div>
                                 <div class="title-wrapper">
-                                    <p class="paragraph-2">Faça já a sua
-                                        reserva, quanto mais precoce for a
-                                        intervenção melhores serão os
-                                        resultados!
+                                    <p class="paragraph-2">Faça já a sua reserva, quanto mais precoce for a intervenção melhores serão os resultados!
                                     </p>
                                 </div>
                                 <div class="grid-cols hero-buttons">
@@ -487,9 +459,9 @@
                         </div>
                         <div
                             id="w-node-c4cc0161-6556-1f38-efef-4eb5bd0623c7-54b76b5a"
-                            class="footer-links-wrap"><a href="/about"
+                            class="footer-links-wrap"><a href="about.html"
                                 class="footer_link">Sobre Nós</a><a
-                                href="#services"
+                                href="servico.html"
                                 class="footer_link">Serviços</a><a
                                 href="https://fisioterapia.buk.pt"
                                 target="_blank"
