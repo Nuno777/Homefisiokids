@@ -4177,7 +4177,7 @@ figcaption {
 
 .text-about-fisio {
   text-align: justify;
-  width: 85%;
+  width: 100%;
   padding-left: 0;
 }
 
@@ -5629,7 +5629,7 @@ figcaption {
   }
 
   .text-about-fisio {
-    text-align: left;
+    text-align: center;
     font-size: 1rem;
   }
 

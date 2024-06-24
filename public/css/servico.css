@@ -1,3 +1,7 @@
+.background-section{
+  background-color: #f9f9f9 !important;
+}
+
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -2385,10 +2389,6 @@ figcaption {
   position: relative;
 }
 
-.background-section{
-  background-color: #f9f9f9 !important;
-}
-
 .section.overflow-hidden_landscape {
   background-color: rgba(249, 249, 249, 0);
   padding-top: 4.5rem;
@@ -3473,7 +3473,7 @@ figcaption {
 .delivery-img {
   aspect-ratio: 1;
   object-fit: cover;
-  width: 18svw;
+  width: 17svw;
 }
 
 .cta-text-wrap {
@@ -4179,8 +4179,13 @@ figcaption {
   width: 7%;
 }
 
+.image-3 {
+  width: 20svw;
+}
+
 .text-about-fisio {
   text-align: justify;
+  width: 85%;
   padding-left: 0;
 }
 
@@ -5720,7 +5725,7 @@ figcaption {
 
 #w-node-_2fbe8306-ec23-2574-db69-e22e91091c27-54b76b5a {
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: .25fr 1fr;
 }
 
 #w-node-d53c314d-930f-2a74-5bcc-8015b38eaf91-54b76b5a {
