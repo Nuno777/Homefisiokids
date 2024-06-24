@@ -3469,7 +3469,7 @@ figcaption {
 .delivery-img {
   aspect-ratio: 1;
   object-fit: cover;
-  width: 18svw;
+  width: 17svw;
 }
 
 .cta-text-wrap {
@@ -4915,7 +4915,7 @@ figcaption {
   }
 
   .image-3 {
-    width: 20rem;
+    width: 14rem;
     max-width: none;
   }
 
@@ -4945,6 +4945,15 @@ figcaption {
   .fs-cc-banner_container {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .div-colorbar {
+    width: 35%;
+    margin-top: -.3rem;
+  }
+
+  .h4 {
+    font-size: 1.4rem;
   }
 }
 
@@ -4983,6 +4992,7 @@ figcaption {
   .h3 {
     text-align: left;
     width: 100%;
+    font-size: 2rem;
   }
 
   .h6 {
@@ -5220,6 +5230,10 @@ figcaption {
     width: auto;
   }
 
+  .image-3 {
+    width: 45%;
+  }
+
   .fs-cc-banner_container {
     flex-direction: column;
     align-items: flex-start;
@@ -5227,6 +5241,14 @@ figcaption {
 
   .fs-cc-prefs_title {
     font-size: 1.25rem;
+  }
+
+  .div-colorbar {
+    width: 55%;
+  }
+
+  .h4 {
+    font-size: 1.6rem;
   }
 }
 
@@ -5280,12 +5302,21 @@ figcaption {
     display: none;
   }
 
+  .section.overflow-hidden_landscape, .section.overflow-hidden_landscape.section-fisio-respira {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .section.overflow-hidden {
     padding-top: 3rem;
   }
 
   .section.section-footer {
     padding-top: 2rem;
+  }
+
+  .container._10col {
+    padding-top: 0;
   }
 
   .image {
@@ -5323,6 +5354,7 @@ figcaption {
   .h3 {
     text-align: center;
     width: 100%;
+    font-size: 1.9rem;
   }
 
   .h {
@@ -5590,7 +5622,17 @@ figcaption {
     bottom: 150px;
   }
 
-  .text-about-fisio, .paragraph-2 {
+  .image-3 {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .text-about-fisio {
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  .paragraph-2 {
     text-align: center;
   }
 
@@ -5632,6 +5674,29 @@ figcaption {
     width: 100%;
     margin-bottom: .5rem;
     margin-left: 0;
+  }
+
+  .div-colorbar {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -.3rem;
+    display: block;
+  }
+
+  .bold-text {
+    font-size: 1.4rem;
+  }
+
+  .h4 {
+    font-size: 1.3rem;
+  }
+
+  .div-block-2 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
 }
 
@@ -5698,6 +5763,11 @@ figcaption {
   #w-node-_2fbe8306-ec23-2574-db69-e22e91091c27-54b76b5a {
     grid-template-rows: auto;
     grid-template-columns: 1fr minmax(200px, .5fr);
+  }
+
+  #w-node-_3b0102ad-1813-5c9d-8085-f6ee1e551dd5-c40bd269 {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr minmax(196px, .75fr);
   }
 }
 
