@@ -3309,10 +3309,16 @@ figcaption {
 .footer_link.footer_text {
   width: 240px;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
 }
 
 .footer_link.footer_text:hover {
   color: var(--colors--text-2);
+}
+
+.footer_cont{
+  font-weight: 600 !important;
 }
 
 .cell {
@@ -4177,7 +4183,7 @@ figcaption {
 
 .text-about-fisio {
   text-align: justify;
-  width: 85%;
+  width: 100%;
   padding-left: 0;
 }
 
@@ -4958,6 +4964,21 @@ figcaption {
   }
 }
 
+/* Estilo padrão para dispositivos maiores */
+.image-wrapper iframe {
+  width: 450px;
+  height: 370px;
+}
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
+  .image-wrapper iframe {
+    width: 320px;
+    height: 300px;
+  }
+}
+
+
 @media screen and (max-width: 767px) {
   .section.overflow-hidden_landscape {
     overflow: hidden;
@@ -5021,7 +5042,7 @@ figcaption {
   .sg-nav_menu {
     background-color: var(--colors--surface);
     padding-bottom: 15px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
   }
 
   .sg-nav_link {
@@ -5080,8 +5101,8 @@ figcaption {
   }
 
   .nav_link.button {
-    margin-left: 0;
-    margin-right: 0;
+    /* margin-left: 0;
+    margin-right: 0; */
   }
 
   .footer-title.newsletter {
@@ -5417,7 +5438,7 @@ figcaption {
     align-items: flex-start;
     margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
   }
 
   .sg-padding {
@@ -5445,13 +5466,14 @@ figcaption {
     order: 0;
     justify-content: center;
     align-items: center;
-    margin-left: 0;
-    display: block;
+    text-align: center;
+    /* margin-left: 0;
+    display: block; */
   }
 
   .nav_link.button {
-    margin-left: 0;
-    margin-right: 0;
+    /* margin-left: 0;
+    margin-right: 0; */
   }
 
   .footer-logo {
@@ -5462,6 +5484,7 @@ figcaption {
   .footer-grid {
     flex-flow: column;
     display: flex;
+    align-items: center;
   }
 
   .display-text {
@@ -5629,7 +5652,6 @@ figcaption {
   }
 
   .text-about-fisio {
-    text-align: left;
     font-size: 1rem;
   }
 

@@ -1,4 +1,4 @@
-.background-section{
+.background-section {
   background-color: #f9f9f9 !important;
 }
 
@@ -374,7 +374,7 @@ pre.w-code-block code {
   transform: none !important;
 }
 
-.w-webflow-badge > img {
+.w-webflow-badge>img {
   visibility: visible !important;
   opacity: 1 !important;
   vertical-align: middle !important;
@@ -1016,7 +1016,7 @@ textarea.w-input, textarea.w-select {
   text-align: center;
 }
 
-.w-widget-map .gm-style-iw > button {
+.w-widget-map .gm-style-iw>button {
   display: none !important;
 }
 
@@ -1158,7 +1158,7 @@ textarea.w-input, textarea.w-select {
   overflow: hidden;
 }
 
-.w-background-video > video {
+.w-background-video>video {
   object-fit: cover;
   z-index: -100;
   background-position: 50%;
@@ -1173,7 +1173,7 @@ textarea.w-input, textarea.w-select {
   right: -100%;
 }
 
-.w-background-video > video::-webkit-media-controls-start-playback-button {
+.w-background-video>video::-webkit-media-controls-start-playback-button {
   -webkit-appearance: none;
   display: none !important;
 }
@@ -1186,7 +1186,7 @@ textarea.w-input, textarea.w-select {
   right: 1em;
 }
 
-.w-background-video--control > [hidden] {
+.w-background-video--control>[hidden] {
   display: none !important;
 }
 
@@ -1236,11 +1236,11 @@ textarea.w-input, textarea.w-select {
   right: 0;
 }
 
-.w-slider-nav.w-round > div {
+.w-slider-nav.w-round>div {
   border-radius: 100%;
 }
 
-.w-slider-nav.w-num > div {
+.w-slider-nav.w-num>div {
   font-size: inherit;
   line-height: inherit;
   width: auto;
@@ -1248,7 +1248,7 @@ textarea.w-input, textarea.w-select {
   padding: .2em .5em;
 }
 
-.w-slider-nav.w-shadow > div {
+.w-slider-nav.w-shadow>div {
   box-shadow: 0 0 3px rgba(51, 51, 51, .4);
 }
 
@@ -1256,11 +1256,11 @@ textarea.w-input, textarea.w-select {
   color: #fff;
 }
 
-.w-slider-nav-invert > div {
+.w-slider-nav-invert>div {
   background-color: rgba(34, 34, 34, .4);
 }
 
-.w-slider-nav-invert > div.w-active {
+.w-slider-nav-invert>div.w-active {
   background-color: #222;
 }
 
@@ -1721,7 +1721,7 @@ textarea.w-input, textarea.w-select {
   outline: 2px solid #2895f7;
 }
 
-.w-richtext figure.w-richtext-figure-type-video > div:after, .w-richtext figure[data-rt-type="video"] > div:after {
+.w-richtext figure.w-richtext-figure-type-video>div:after, .w-richtext figure[data-rt-type="video"]>div:after {
   content: "";
   display: none;
   position: absolute;
@@ -1736,7 +1736,7 @@ textarea.w-input, textarea.w-select {
   position: relative;
 }
 
-.w-richtext figure > div:before {
+.w-richtext figure>div:before {
   cursor: default !important;
 }
 
@@ -1757,11 +1757,11 @@ textarea.w-input, textarea.w-select {
   display: table;
 }
 
-.w-richtext figure.w-richtext-figure-type-image > div, .w-richtext figure[data-rt-type="image"] > div {
+.w-richtext figure.w-richtext-figure-type-image>div, .w-richtext figure[data-rt-type="image"]>div {
   display: inline-block;
 }
 
-.w-richtext figure.w-richtext-figure-type-image > figcaption, .w-richtext figure[data-rt-type="image"] > figcaption {
+.w-richtext figure.w-richtext-figure-type-image>figcaption, .w-richtext figure[data-rt-type="image"]>figcaption {
   caption-side: bottom;
   display: table-caption;
 }
@@ -1779,7 +1779,7 @@ textarea.w-input, textarea.w-select {
   left: 0;
 }
 
-.w-richtext figure.w-richtext-figure-type-video > div, .w-richtext figure[data-rt-type="video"] > div {
+.w-richtext figure.w-richtext-figure-type-video>div, .w-richtext figure[data-rt-type="video"]>div {
   width: 100%;
 }
 
@@ -1789,7 +1789,7 @@ textarea.w-input, textarea.w-select {
   margin-right: auto;
 }
 
-.w-richtext figure.w-richtext-align-center.w-richtext-figure-type-image > div, .w-richtext figure.w-richtext-align-center[data-rt-type="image"] > div {
+.w-richtext figure.w-richtext-align-center.w-richtext-figure-type-image>div, .w-richtext figure.w-richtext-align-center[data-rt-type="image"]>div {
   max-width: 100%;
 }
 
@@ -1807,12 +1807,12 @@ textarea.w-input, textarea.w-select {
   display: block;
 }
 
-.w-richtext figure.w-richtext-align-fullwidth > div {
+.w-richtext figure.w-richtext-align-fullwidth>div {
   padding-bottom: inherit;
   display: inline-block;
 }
 
-.w-richtext figure.w-richtext-align-fullwidth > figcaption {
+.w-richtext figure.w-richtext-align-fullwidth>figcaption {
   display: block;
 }
 
@@ -2078,7 +2078,7 @@ textarea.w-input, textarea.w-select {
   display: grid;
 }
 
-.w-code-component > * {
+.w-code-component>* {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -3313,10 +3313,16 @@ figcaption {
 .footer_link.footer_text {
   width: 240px;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
 }
 
 .footer_link.footer_text:hover {
   color: var(--colors--text-2);
+}
+
+.footer_cont{
+  font-weight: 600 !important;
 }
 
 .cell {
@@ -5029,7 +5035,7 @@ figcaption {
   .sg-nav_menu {
     background-color: var(--colors--surface);
     padding-bottom: 15px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
   }
 
   .sg-nav_link {
@@ -5088,8 +5094,8 @@ figcaption {
   }
 
   .nav_link.button {
-    margin-left: 0;
-    margin-right: 0;
+    /* margin-left: 0;
+    margin-right: 0; */
   }
 
   .footer-title.newsletter {
@@ -5453,13 +5459,14 @@ figcaption {
     order: 0;
     justify-content: center;
     align-items: center;
-    margin-left: 0;
-    display: block;
+    text-align: center;
+    /* margin-left: 0;
+    display: block; */
   }
 
   .nav_link.button {
-    margin-left: 0;
-    margin-right: 0;
+    /* margin-left: 0;
+    margin-right: 0; */
   }
 
   .footer-logo {
@@ -5470,6 +5477,7 @@ figcaption {
   .footer-grid {
     flex-flow: column;
     display: flex;
+    align-items: center;
   }
 
   .display-text {
@@ -5484,8 +5492,8 @@ figcaption {
   }
 
   .sg-logo-2 {
-    grid-column-gap: 0rem;
-    grid-row-gap: 0rem;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
   }
 
   .sg-logo-2.w--current {
@@ -5637,8 +5645,12 @@ figcaption {
   }
 
   .text-about-fisio {
-    text-align: left;
-    font-size: 1rem;
+    /* text-align: left; */
+    font-size: 0.9rem;
+  }
+
+  .ul-text {
+    font-size: 0.9rem;
   }
 
   .paragraph-2 {
