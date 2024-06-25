@@ -3802,7 +3802,7 @@ figcaption {
 }
 
 .cta-layout {
-  grid-column-gap: 7rem;
+  grid-column-gap: 1rem;
   grid-row-gap: 5rem;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
