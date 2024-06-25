@@ -5499,8 +5499,8 @@ figcaption {
   }
 
   .sg-logo-2 {
-    grid-column-gap: 0rem;
-    grid-row-gap: 0rem;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
   }
 
   .sg-logo-2.w--current {
