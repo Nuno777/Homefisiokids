@@ -1,9 +1,9 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <a href="https://homefisiokids.onrender.com/"><img src="public/images/icon.png" alt="HomeFisiokids" width="200"></a>
   <br>
-  Markdownify
+  HomeFisiokids
   <br>
 </h1>
 
@@ -117,11 +117,10 @@ This software uses the following open source packages:
 
 ## License
 
-MIT
+BSD 3-Clause License
 
 ---
 
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
+> GitHub [@Nuno777](https://github.com/Nuno777) &nbsp;&middot;&nbsp;
+> WebSite [HomeFisiokids](https://homefisiokids.onrender.com/)
 
