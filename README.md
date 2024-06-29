@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">Website HomeFisiokids, para crianças até 18 anos.</h4>
+<h4 align="center">Website HomeFisiokids, fisioterapia para crianças até 18 anos.</h4>
 
 <p>Na HomeFisiokids, somos dedicados a proporcionar um atendimento especializado e compassivo para crianças de todas as idades. Com uma equipe altamente qualificada e um ambiente acolhedor, trabalhamos para promover o desenvolvimento físico e motor dos nossos pequenos pacientes, garantindo que cada criança atinja seu máximo potencial de forma saudável e divertida.</p>
 
